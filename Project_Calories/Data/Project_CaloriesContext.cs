@@ -15,5 +15,7 @@ namespace Project_Calories.Data
         }
 
         public DbSet<Project_Calories.Models.Food> Food { get; set; } = default!;
+
+        public DbSet<Project_Calories.Models.Categorie>? Categorie { get; set; }
     }
 }
